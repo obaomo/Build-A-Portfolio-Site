@@ -1,0 +1,115 @@
+/* 
+==========================================================================
+Body
+==========================================================================
+*/
+abbr[title],
+acronym[title] {
+  border-bottom-width: 0;
+}
+html,
+body {
+  font-family: "ff-meta-web-pro", sans-serif;
+  text-rendering: optimizeLegibility;
+  font-size: 100%;
+  line-height: 26px;
+  background: #f6efe5;
+  background-size: 60%;
+  color: #0d2c40;  
+}
+body {
+  padding-bottom: 50px;
+}
+a {
+  color: #0d2c40;
+  text-decoration: none;
+  border-bottom: 1px solid #0d2c40;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+/* 
+==========================================================================
+Page wrapper
+==========================================================================
+*/
+.page-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 120em;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* 
+==========================================================================
+Intro
+==========================================================================
+*/
+
+.header {
+  overflow: hidden;
+}
+.header navbar-header {
+  position: relative;
+  background: #c879b2;
+  overflow: hidden;
+  width: 40%;
+  height: 50em;
+  float: left;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease; */
+}
+  @media (max-width: 70em) {
+    .header navbar-header {
+      background: #f15a30;
+      width: 100%;
+      height: 27em;
+    }
+  }
+  @media (max-width: 53em) {
+    .header navbar-header {
+      height: 20em;
+    }
+  }
+.header navbar-brand h1 {
+  position: absolute;
+  color: #ffffff;
+  font-size: 100%;
+  line-height: 2em;
+  top: 4.2em;
+  left: -3em;
+  width: auto;
+  margin: 0;
+  padding: 1em;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+footer {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  background-color: #DD5632;
+  padding-left: 5px;
+  padding-top: 10px;
+  font-size: 10px;
+}
